@@ -8,3 +8,11 @@ $max-width: 1020px;
 
 @import "_mixins";
 @import "_shared";
+
+.main {
+	text-align: center;
+
+	h1 {
+		color: #333;
+	}
+}

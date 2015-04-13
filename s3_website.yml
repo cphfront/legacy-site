@@ -1,8 +1,7 @@
-site_name: example.com
-
 s3_id: <%= ENV['S3_ACCESS_KEY_ID'] %>
 s3_secret: <%= ENV['S3_SECRET_ACCESS_KEY'] %>
-s3_bucket: site_name
+s3_bucket: cphfront.com
+cloudfront_distribution_id: E27GJ3BZXFE76D
 
 # cloudfront_distribution_id: <%= ENV['CF_DIST_ID']  %>
 
@@ -19,4 +18,4 @@ cloudfront_distribution_config:
     aliases:
         quantity: 1
         items:
-            CNAME: site_name
+            CNAME: cphfront.com

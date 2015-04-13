@@ -7,4 +7,5 @@
 
 public
 node_modules
-
+components
+.env

@@ -10,10 +10,10 @@ config = {
 # Template data
 # Change these where appropriate
 site = {
-	title: "Startover",
-	description: "Startover is a boilerplate for developing static websites on your Mac. With Startover you don't have to start over!",
-	keywords: "template,static,website,s3"
-	url: "https://github.com/ksmandersen/startover",
+	title: "Copenhagen Frontenders",
+	description: "Social meetup group for Frontend Developeres in Copenhagen",
+	keywords: "frontend,front-end,developer,development,denmark,copenhagen,meetup,social"
+	url: "https://cphfront.com",
 	fb: {
 		appName: "",
 		appId: ""
