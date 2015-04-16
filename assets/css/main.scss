@@ -9,10 +9,45 @@ $max-width: 1020px;
 @import "_mixins";
 @import "_shared";
 
+body, p, span, li, a {
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	font-size: 14pt;
+	line-height: 1.2em;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: #000;
+	font-weight: bold;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.container {
+	padding: 0 10px;
+}
+
 .main {
 	text-align: center;
 
 	h1 {
 		color: #333;
+	}
+}
+
+.events {
+	.event {
+		margin-top: 60px;
+
+		.description {
+			ul {
+				margin-top: 5px;
+			}
+		}
 	}
 }
